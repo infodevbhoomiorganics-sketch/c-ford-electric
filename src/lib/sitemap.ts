@@ -19,14 +19,6 @@ export function generateSitemap(): string {
     urls.push({ loc: `${SITE.url}${p.path}`, priority: p.priority, changefreq: p.changefreq });
   });
 
-  SERVICES.forEach((s) => {
-    urls.push({
-      loc: `${SITE.url}/services/${s.slug}`,
-      priority: '0.8',
-      changefreq: 'monthly',
-    });
-  });
-
   LOCATIONS.forEach((l) => {
     urls.push({
       loc: `${SITE.url}/service-areas/${l.slug}`,
@@ -39,7 +31,7 @@ export function generateSitemap(): string {
     LOCATIONS.forEach((l) => {
       urls.push({
         loc: `${SITE.url}/${s.slug}-${l.slug}`,
-        priority: '0.7',
+        priority: l.slug === 'oklahoma-city-ok' ? '0.8' : '0.7',
         changefreq: 'monthly',
       });
     });

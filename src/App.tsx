@@ -6,7 +6,7 @@ import { StickyMobileCall } from '@/components/StickyMobileCall';
 import { HomePage } from '@/pages/HomePage';
 import { AboutPage } from '@/pages/AboutPage';
 import { ServicesOverviewPage } from '@/pages/ServicesOverviewPage';
-import { ServiceDetailPage } from '@/pages/ServiceDetailPage';
+
 import { ServiceAreasOverviewPage } from '@/pages/ServiceAreasOverviewPage';
 import { LocationDetailPage } from '@/pages/LocationDetailPage';
 import { ContactPage } from '@/pages/ContactPage';
@@ -30,13 +30,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesOverviewPage />} />
-          {SERVICE_SLUGS.map((slug) => (
-            <Route
-              key={slug}
-              path={`/services/${slug}`}
-              element={<ServiceDetailPage slug={slug} />}
-            />
-          ))}
           <Route path="/service-areas" element={<ServiceAreasOverviewPage />} />
           {LOCATION_SLUGS.map((slug) => (
             <Route

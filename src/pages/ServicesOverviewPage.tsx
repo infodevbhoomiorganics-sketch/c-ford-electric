@@ -56,7 +56,7 @@ export function ServicesOverviewPage() {
               return (
                 <Link
                   key={s.slug}
-                  to={`/services/${s.slug}`}
+                  to={`/${s.slug}-oklahoma-city-ok`}
                   className="card group flex flex-col overflow-hidden p-0"
                 >
                   <div className="relative h-44 overflow-hidden">

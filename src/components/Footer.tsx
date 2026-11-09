@@ -33,7 +33,7 @@ export function Footer() {
               {SERVICES.slice(0, 7).map((s) => (
                 <li key={s.slug}>
                   <Link
-                    to={`/services/${s.slug}`}
+                    to={`/${s.slug}-oklahoma-city-ok`}
                     className="text-navy-300 transition-colors hover:text-gold-300"
                   >
                     {s.name}

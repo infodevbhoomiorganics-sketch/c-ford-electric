@@ -94,7 +94,7 @@ export function Header() {
     };
   }, [open]);
 
-  const serviceItems = SERVICES.map((s) => ({ name: s.name, href: `/services/${s.slug}` }));
+  const serviceItems = SERVICES.map((s) => ({ name: s.name, href: `/${s.slug}-oklahoma-city-ok` }));
   const locationItems = LOCATIONS.map((l) => ({ name: `${l.city}, ${l.state}`, href: `/service-areas/${l.slug}` }));
 
   const mobileNavItems: MobileNavItem[] = [
