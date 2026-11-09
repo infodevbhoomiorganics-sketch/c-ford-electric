@@ -1,0 +1,15 @@
+{
+  "name": "C Ford Electric",
+  "short_name": "C Ford Electric",
+  "description": "Oklahoma City electrical contractors. Residential, commercial, and industrial electrical services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1f44",
+  "theme_color": "#0a1f44",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/favicon-16.png", "sizes": "16x16", "type": "image/png" }
+  ]
+}

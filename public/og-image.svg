@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a1f44"/>
+  <rect width="1200" height="630" fill="url(#g)" opacity="0.15"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5b400"/>
+      <stop offset="1" stop-color="#0a1f44"/>
+    </linearGradient>
+  </defs>
+  <path d="M640 120 L400 520 H600 L520 600 L820 240 H560 L640 120 Z" fill="#f5b400" opacity="0.18"/>
+  <text x="80" y="320" font-family="Poppins, Arial, sans-serif" font-weight="800" font-size="68" fill="#ffffff">C Ford Electric</text>
+  <text x="82" y="380" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="30" fill="#ffcf2e">Oklahoma City Electrical Contractors</text>
+  <text x="82" y="470" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="28" fill="#a8bcd2">(405) 326-4239</text>
+</svg>
